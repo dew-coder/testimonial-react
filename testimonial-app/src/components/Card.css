@@ -1,0 +1,49 @@
+.card{
+    position: relative;
+    /* width: 40rem;
+    height: 17rem; */
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: all 0.3s; 
+    
+}
+.image img{
+    top: -5rem;
+    left: 2rem;
+    position: absolute;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    z-index: 45;
+}
+.bg{
+    position: absolute;
+    top: -5.5rem;
+    left: 2.5rem;
+    z-index: 1;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background-color: #8b5cf6;
+}
+.name{
+    height: 3rem;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.job{
+    color: #c4b5fd;
+    font-size: large;
+}
+.quote{
+    color: #c4b5fd;
+    
+}
+.text p{
+    color: #64748b;
+
+}
